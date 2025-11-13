@@ -17,11 +17,23 @@ Les élément suivants vont donc être abordés:
 ## Pratique
 
 ### Webapp d’authentification
+
+#### Bases (injection SQL...)
 - [Authentification-pratique](../exercices/auth/02-Auth.docx)
 - [Auth app - nodejstoken](../exercices/auth/02-nodejstoken.zip)
+
+#### JWT
+##### Répondre aux questions théoriques
+- 02-jwt [pdf](../exercices/auth/02-jwt.pdf) | [docx](../exercices/auth/02-jwt.docx)
+##### Implémenter dans l’application
+- Générer les clés ?
+- Utiliser jwt de Express...
+    - [Documentation officielle](https://www.npmjs.com/package/express-jwt) 
+    - [Suggestion de tutoriel](https://dev.to/hamzakhan/securing-your-expressjs-app-jwt-authentication-step-by-step-aom)
 
 
 ## Ressources
 - [OWASP Password_Storage_Cheat_Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html
 )
 - https://proton.me/fr/business/pass/breach-observatory
+- [JWT Handbook](../supports/02-jwt-handbook-v0_14_2.pdf)
